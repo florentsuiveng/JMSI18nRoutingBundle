@@ -37,7 +37,7 @@ class JMSI18nRoutingBundle extends Bundle
         $container->addCompilerPass(new SetRouterPass());
     }
 
-    public function getContainerExtension(): ?ExtentionInterface
+    public function getContainerExtension(): ?ExtensionInterface
     {
         return new JMSI18nRoutingExtension();
     }
